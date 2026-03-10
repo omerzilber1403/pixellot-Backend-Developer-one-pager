@@ -492,7 +492,7 @@ export function PixellotAgent({ defaultLang = "en" }: PixellotAgentProps) {
             ref={scrollContainerRef}
             onScroll={handleScroll}
             className="overflow-y-auto px-4 py-4 space-y-3"
-            style={{ height: "520px" }}
+            style={{ height: "380px" }}
           >
             {messages.map((msg, idx) => {
               const isLast = idx === messages.length - 1;
